@@ -1,5 +1,5 @@
 import React from 'react';
-function Jumbotron() {
+const Jumbotron = () => {
     return (
         <div className='jumbotron' style={{ backgroundColor: "#EAECEF", padding: "40px" }}>
             <h1 style={{ fontSize: "60px", fontWeight: 300 }}>A Warm Welcome!</h1>
